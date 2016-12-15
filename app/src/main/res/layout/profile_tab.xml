@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cborum.traverse.ProfileTab">
+
+    <RelativeLayout
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:padding="@dimen/margin_medium"
+        android:background="@color/profile_tab_main_background"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+
+        <!--Profile Image-->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="@dimen/profile_image_width_height"
+            android:layout_height="@dimen/profile_image_width_height"
+            android:background="@drawable/rounded_shape"
+
+            android:src="@drawable/ic_no_profil_image"/>
+
+
+        <!--Account Name Header-->
+        <TextView
+            android:id="@+id/usernameHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/profileImage"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_toRightOf="@id/profileImage"
+            android:text="user"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/text_lighter"/>
+
+
+        <!--Account Name-->
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usernameHeader"
+            android:layout_alignLeft="@id/usernameHeader"
+            android:layout_marginTop="@dimen/margin_negative_medium"
+            android:text="not found"
+            android:textColor="@color/text"
+            android:textSize="@dimen/text_huge" />
+
+
+
+        <!--tabs and view container-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@drawable/box_shadow"
+            android:layout_below="@id/profileImage"
+            >
+
+            <!--Tab Layout-->
+            <LinearLayout
+                android:id="@+id/tabHeaders"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@color/profile_tab_tab_shadow">
+
+                <!--&lt;!&ndash;Travels Tab&ndash;&gt;-->
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/travelsTab"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:paddingBottom="@dimen/margin_small"-->
+                    <!--android:paddingTop="@dimen/margin_miniscule">-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/travelsIcon"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:src="@drawable/ic_travels_24dp"-->
+                        <!--android:tint="@color/profile_tab_tab_icon" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/travelsHeader"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_below="@id/travelsIcon"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:layout_marginTop="@dimen/margin_negative_small"-->
+                        <!--android:text="travels"-->
+                        <!--android:textColor="@color/text"-->
+                        <!--android:textSize="@dimen/text_small" />-->
+
+                <!--</RelativeLayout>-->
+
+                <!--Achievements Tab-->
+                <RelativeLayout
+                    android:id="@+id/achievementsTab"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/margin_small"
+                    android:paddingTop="@dimen/margin_miniscule">
+
+                    <ImageView
+                        android:id="@+id/achievementsIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_achievements_24dp"
+                        android:tint="@color/profile_tab_tab_icon" />
+
+                    <TextView
+                        android:id="@+id/achievementsHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/achievementsIcon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_negative_small"
+                        android:text="@string/achievements_header"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/text_small" />
+
+                </RelativeLayout>
+
+                <!--Details Tab-->
+                <RelativeLayout
+                    android:id="@+id/detailsTab"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/margin_small"
+                    android:paddingTop="@dimen/margin_miniscule">
+
+                    <ImageView
+                        android:id="@+id/detailsIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_details_24dp"
+                        android:tint="@color/profile_tab_tab_icon" />
+
+                    <TextView
+                        android:id="@+id/detailsHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/detailsIcon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_negative_small"
+                        android:text="@string/details_header"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/text_small" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+            <!--view container-->
+            <LinearLayout
+                android:id="@+id/viewContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tabHeaders"
+                android:background="@color/profile_tab_container_bg"
+                android:padding="@dimen/margin_medium"
+                android:orientation="horizontal"></LinearLayout>
+
+            <!--line seperator-->
+            <View
+                android:id="@+id/separator"
+                android:background="@color/almost_white"
+                android:layout_above="@id/viewContainer"
+                android:layout_width = "fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_centerVertical ="true"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

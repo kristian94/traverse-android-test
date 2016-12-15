@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--orig palette-->
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#F50057</color>
+    <color name="primary_dark">#6C7F91</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="indigo">#3f51b5</color>
+    <color name="pink">#e91e63</color>
+
+    <!--Grays-->
+    <color name="gray">#2E2E2E</color>
+    <color name="gray_dark">#1C1C1C</color>
+    <color name="gray_light">#424242</color>
+    <color name="gray_lighter">#626262</color>
+    <color name="gray_lightest">#8A8A8A</color>
+    <color name="almost_white">#D5D5D5</color>
+
+    <!--Black/White-->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--Palette 01-->
+    <color name="orange">#F58D3C</color>
+    <color name="mint_green">#8FBC8F</color>
+    <color name="mint_green_dark">#5A835D</color>
+    <!--<color name="azure">#6F96B5</color>-->
+    <!--<color name="azure_dark">#476D87</color>-->
+    <color name="azure">#61A1C8</color>
+    <color name="azure_dark">#4D7CAB</color>
+    <color name="light_red_lighter">#AD7171</color>
+    <color name="light_red">#B96464</color>
+    <color name="light_red_dark">#95414B</color>
+    <color name="purple">#67416D</color>
+
+    <!--misc-->
+    <color name="teal">#65E1C0</color>
+    <color name="brown">#685138</color>
+    <color name="light_blue">#4A84B3</color>
+    <color name="blue">#3C6395</color>
+    <color name="beige">#ECEBD7</color>
+    <color name="slate_gray">#708090</color>
+    <color name="salmon">#FF5D4E</color>
+    <color name="lightblue">#4ED1FF</color>
+    <color name="background">#FEFFD3</color>
+    <color name="bg_shadow">#D6D6D6</color>
+    <color name="bg_dark">#A8A8A8</color>
+
+
+
+
+
+
+    <!--main-->
+    <color name="status_bar_color">@color/black</color>
+    <color name="title_text_color">@color/white</color>
+    <color name="top_bar_color">@color/azure</color>
+    <color name="top_bar_icon_color">@color/gray_dark</color>
+    <color name="top_bar_item_selected_color">@color/white</color>
+    <color name="navigation_bar_color">@color/black</color>
+
+
+    <!--text-->
+    <color name="text">@color/gray</color>
+    <color name="text_dark">@color/gray_dark</color>
+    <color name="text_light">@color/gray_light</color>
+    <color name="text_lighter">@color/gray_lighter</color>
+    <color name="text_lightest">@color/gray_lightest</color>
+
+    <!--profile tab-->
+    <color name="profile_tab_main_background">@color/white</color>
+    <color name="profile_tab_container_bg">@color/white</color>
+    <color name="profile_tab_gradient_start">@color/gray_light</color>
+    <color name="profile_tab_gradient_end">@color/gray_lighter</color>
+    <color name="profile_tab_tab_icon">@color/orange</color>
+    <color name="profile_tab_tab_icon_shadow">@color/gray_lighter</color>
+    <color name="profile_tab_tab_shadow">@color/white</color>
+    <color name="profile_tab_text_shadow">@color/gray_lighter</color>
+    <color name="profile_tab_tab_highlight">@color/profile_tab_container_bg</color>
+    <color name="profile_tab_text_highlight">@color/gray</color>
+    <color name="details_active">@color/text</color>
+    <color name="details_inactive">@color/text_lightest</color>
+    <color name="details_header_active">@color/text_light</color>
+    <color name="details_header_inactive">@color/text_lightest</color>
+
+
+    <!--buttons-->
+    <color name="button_color">@color/light_red_lighter</color>
+    <color name="button_color_highlight">@color/white</color>
+
+
+</resources>

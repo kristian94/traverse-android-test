@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+    <dimen name="songs_count_padding_bottom">5dp</dimen>
+    <dimen name="songs_count">12dp</dimen>
+    <dimen name="ic_album_overflow_width">20dp</dimen>
+    <dimen name="ic_album_overflow_height">30dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+    <dimen name="floating_button_size">60dp</dimen>
+    <dimen name="button_elevation">1dp</dimen>
+    <dimen name="button_press_elevation">18dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="card_corner_radius">0dp</dimen>
+
+    <!--Margins-->
+    <dimen name="margin_miniscule">3dp</dimen>
+    <dimen name="margin_small">6dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">18dp</dimen>
+
+    <!--Negative Margins-->
+    <dimen name="margin_negative_small">-3dp</dimen>
+    <dimen name="margin_negative_medium">-6dp</dimen>
+    <dimen name="margin_negative_large">-9dp</dimen>
+
+    <!--Text sizes-->
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_huge">30sp</dimen>
+
+    <!--Elevations-->
+    <dimen name="elevation_medium">12dp</dimen>
+
+    <!--Profile tab-->
+    <dimen name="profile_image_width_height">75dp</dimen>
+
+    <!--icon sizes-->
+    <dimen name="icon_width_height">18dp</dimen>
+
+</resources>

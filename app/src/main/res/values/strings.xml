@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Traverse</string>
+
+    <!--Profile-->
+    <string name="travels_header">travels</string>
+    <string name="achievements_header">achievements</string>
+    <string name="details_header">details</string>
+    <string name="email_header">email</string>
+    <string name="country_header">country</string>
+    <string name="achievement_points_header">achievement points</string>
+    <string name="id_header">id</string>
+    <string name="created_header">account created</string>
+
+    <!--Auth0-->
+    <string name="auth0_preferences">AUTH0_SHARED_PREFERENCES_KEY</string>
+    <string name="refresh">Get New ID With a RefreshTokenID</string>
+    <string name="token">Get New ID With a TokenID</string>
+    <string name="logout">Logout</string>
+    <string name="auth0_client_id">FLmascQa2f0HogOsNuFT0oOCY7J9vHKr</string>
+    <string name="auth0_domain">matskruger.eu.auth0.com</string>
+
+</resources>
